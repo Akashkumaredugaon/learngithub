@@ -16,7 +16,7 @@ var lightThem=ThemeData(
 
     ),
 
-    textTheme: TextTheme(bodyText2: TextStyle(color: Colors.white,fontWeight: FontWeight.bold,fontSize: 10)),
+    textTheme: TextTheme(bodyMedium:  TextStyle(color: Colors.white,fontWeight: FontWeight.bold,fontSize: 10)),
     iconTheme: IconThemeData(color: Colors.white),
 
 
