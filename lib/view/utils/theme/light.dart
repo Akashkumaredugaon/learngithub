@@ -5,7 +5,6 @@ import 'package:newsapp/view/utils/colors.dart';
 var lightThem=ThemeData(
 
     cardTheme: CardTheme(color: Colors.blueAccent),
-    // scaffoldBackgroundColor: Colors.black,
     scaffoldBackgroundColor: Colors.black,
     elevatedButtonTheme: ElevatedButtonThemeData(style: ButtonStyle( backgroundColor: MaterialStateProperty.all<Color>(Colors.lightBlueAccent.shade100))),
     appBarTheme: AppBarTheme(
@@ -16,11 +15,8 @@ var lightThem=ThemeData(
 
     ),
 
-    textTheme: TextTheme(bodyText2: TextStyle(color: Colors.white,fontWeight: FontWeight.bold,fontSize: 10)),
+    textTheme: TextTheme(bodyMedium:  TextStyle(color: Colors.white,fontWeight: FontWeight.bold,fontSize: 10)),
     iconTheme: IconThemeData(color: Colors.white),
-
-
-
 
 
 );
