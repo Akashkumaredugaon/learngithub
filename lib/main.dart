@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:newsapp/view/screen/splash_screen.dart';
+
 
 
 
@@ -14,10 +14,23 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SplashScreen(),
+      home:Ppp(),
 
     );
   }
 }
 
+class Ppp extends StatefulWidget {
+  const Ppp({super.key});
+
+  @override
+  State<Ppp> createState() => _PppState();
+}
+
+class _PppState extends State<Ppp> {
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
+  }
+}
 
