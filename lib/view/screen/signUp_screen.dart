@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:newsapp/view/screen/home/home_screen.dart';
 import 'package:newsapp/view/screen/loging_screen.dart';
 import '../utils/app_widget/app_widget.dart';
 import '../utils/colors.dart';
@@ -54,6 +55,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   height: auth.getHeight/13,
 
                       () {
+
+                    auth.appNavigatorView( (p0) => HomeScreen(),);
                   }, Text("Sign Up ",style: AppTextStyle().normalTextStyle(textWidth: 15,color: Colors.black),),
 
                 ),

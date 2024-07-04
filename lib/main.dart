@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:newsapp/view/screen/category/category_screen.dart';
-import 'package:newsapp/view/screen/home/home_screen.dart';
-import 'package:newsapp/view/screen/them.dart';
+import 'package:newsapp/view/screen/splash_screen.dart';
 
 
 
@@ -16,7 +14,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ThemeScreen(),
+      home: SplashScreen(),
+
     );
   }
 }

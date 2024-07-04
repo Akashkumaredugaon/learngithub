@@ -5,7 +5,7 @@ import 'package:newsapp/view/utils/colors.dart';
 
 var darkTheme=ThemeData(
 
-  textTheme: TextTheme(bodyText2:TextStyle(color: Colors.black)),
+  // textTheme: TextTheme(:TextStyle(color: Colors.black)),
 
   elevatedButtonTheme: ElevatedButtonThemeData(style: ButtonStyle(  backgroundColor: MaterialStateProperty.all<Color>(appPrimaryColor))),
   appBarTheme: AppBarTheme(
